@@ -14,22 +14,22 @@ import sqlite3
 envpath = find_dotenv()
 load_dotenv(envpath)
 
-TOKEN = os.getenv("8207988534:AAFERuWYH4Vbw-p67TSM662WU20OkLJvVkg") # Get your Token from @Botfather 
+TOKEN = os.getenv("7327892485:AAGj8Kg5J2gycn1zKDuah5qdFA4feVoc69g") # Get your Token from @Botfather 
 API_KEY = os.getenv("GEMINI_API_KEY")
 
 botconfig = {
-    "botname" : "Spiecheckers",
-    "botusername" : "@Spiecheckers_bot",
+    "botname" : "circuitchecker",
+    "botusername" : "@circuitchecker_bot",
     "owner" : {
-        "id" : 7613434345,
-        "link" : "https://t.me/RDXxxCARDER",
-        "name" : "𝙍𝘿𝙓"
+        "id" : 5803180946,
+        "link" : "https://t.me/knowaboutme6",
+        "name" : "MOHSIN"
     },
     "maingroup" : {
-        "link" : "https://t.me/+WrUZROOU-hVlNTc9",
-        "chat id" : -1002761446542
+        "link" : "https://t.me/teensxmusic7",
+        "chat id" : -1002523910071
     },
-    "mainchannel" :  "https://t.me/+WrUZROOU-hVlNTc9"
+    "mainchannel" :  "https://t.me/teensmovies"
 }
 
 logging.basicConfig(filename= "logs.txt",
